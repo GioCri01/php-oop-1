@@ -4,9 +4,9 @@ class Movies {
     public $regista;
     public $dataUscita;
 
-    function __construct($nome,$poster){
+    function __construct($nome,$regista){
         $this->nome = $nome;
-        $this->regista = $poster;
+        $this->regista = $regista;
     }
 
     function set_data_uscita($dataUscita){
